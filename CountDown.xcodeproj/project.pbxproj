@@ -14,6 +14,8 @@
 		39941D071B6CC05800A2A320 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39941D061B6CC05800A2A320 /* Images.xcassets */; };
 		39941D0A1B6CC05800A2A320 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39941D081B6CC05800A2A320 /* LaunchScreen.xib */; };
 		39941D161B6CC05800A2A320 /* CountDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39941D151B6CC05800A2A320 /* CountDownTests.m */; };
+		39941D211B6CD1B300A2A320 /* CircleView_layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39941D201B6CD1B300A2A320 /* CircleView_layer.m */; };
+		39941D241B6CFB4B00A2A320 /* TokenView_layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39941D231B6CFB4B00A2A320 /* TokenView_layer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		39941D0F1B6CC05800A2A320 /* CountDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39941D141B6CC05800A2A320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39941D151B6CC05800A2A320 /* CountDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownTests.m; sourceTree = "<group>"; };
+		39941D1F1B6CD1B300A2A320 /* CircleView_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView_layer.h; sourceTree = "<group>"; };
+		39941D201B6CD1B300A2A320 /* CircleView_layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView_layer.m; sourceTree = "<group>"; };
+		39941D221B6CFB4B00A2A320 /* TokenView_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TokenView_layer.h; sourceTree = "<group>"; };
+		39941D231B6CFB4B00A2A320 /* TokenView_layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TokenView_layer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				39941CFE1B6CC05800A2A320 /* AppDelegate.m */,
 				39941D001B6CC05800A2A320 /* ViewController.h */,
 				39941D011B6CC05800A2A320 /* ViewController.m */,
+				39941D1F1B6CD1B300A2A320 /* CircleView_layer.h */,
+				39941D201B6CD1B300A2A320 /* CircleView_layer.m */,
+				39941D221B6CFB4B00A2A320 /* TokenView_layer.h */,
+				39941D231B6CFB4B00A2A320 /* TokenView_layer.m */,
 				39941D031B6CC05800A2A320 /* Main.storyboard */,
 				39941D061B6CC05800A2A320 /* Images.xcassets */,
 				39941D081B6CC05800A2A320 /* LaunchScreen.xib */,
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				39941D021B6CC05800A2A320 /* ViewController.m in Sources */,
+				39941D241B6CFB4B00A2A320 /* TokenView_layer.m in Sources */,
 				39941CFF1B6CC05800A2A320 /* AppDelegate.m in Sources */,
+				39941D211B6CD1B300A2A320 /* CircleView_layer.m in Sources */,
 				39941CFC1B6CC05800A2A320 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
