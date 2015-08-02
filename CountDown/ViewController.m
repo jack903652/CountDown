@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "CircleView_layer.h"
 #import "TokenView_layer.h"
+#import "CAlertView.h"
 @interface ViewController ()
 //@property(nonatomic,strong)CAShapeLayer *circleLayer;
 @property(nonatomic,strong)CircleView_layer *circleView;
@@ -16,6 +17,8 @@
 
 @implementation ViewController
 - (IBAction)action:(id)sender {
+    CAlertView *alert =[[CAlertView alloc] initWithTitle:@"提示信息" message:@"季金娟大笨蛋!" delegate:nil cancelButtonTitle:@"是的" otherButtonTitles:nil];
+    [alert show];
 //    _circleView.score =69;
 //    CABasicAnimation *animation =[CABasicAnimation animationWithKeyPath:@"strokeEnd"];
 //    animation.duration =5;
@@ -36,7 +39,7 @@
     };
     [self.view addSubview:_circleView];
     
-    TokenView_layer *tokenView =[[TokenView_layer alloc]initWithFrame:CGRectMake(10, 200, CGRectGetWidth(self.view.frame)-20, 58)];
+    TokenView_layer *tokenView =[[TokenView_layer alloc]initWithFrame:CGRectMake(10, 100, CGRectGetWidth(self.view.frame)-20, 58)];
     [self.view addSubview:tokenView];
 //    [tokenView setToken:@"89808979" tl:5 time:10];
     // Do any additional setup after loading the view, typically from a nib.

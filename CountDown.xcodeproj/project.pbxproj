@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		397972E71B6E1BD000608863 /* CAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 397972E61B6E1BD000608863 /* CAlertView.m */; };
 		39941CFC1B6CC05800A2A320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39941CFB1B6CC05800A2A320 /* main.m */; };
 		39941CFF1B6CC05800A2A320 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39941CFE1B6CC05800A2A320 /* AppDelegate.m */; };
 		39941D021B6CC05800A2A320 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39941D011B6CC05800A2A320 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		397972E51B6E1BD000608863 /* CAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAlertView.h; sourceTree = "<group>"; };
+		397972E61B6E1BD000608863 /* CAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAlertView.m; sourceTree = "<group>"; };
 		39941CF61B6CC05800A2A320 /* CountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39941CFA1B6CC05800A2A320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39941CFB1B6CC05800A2A320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				39941D201B6CD1B300A2A320 /* CircleView_layer.m */,
 				39941D221B6CFB4B00A2A320 /* TokenView_layer.h */,
 				39941D231B6CFB4B00A2A320 /* TokenView_layer.m */,
+				397972E51B6E1BD000608863 /* CAlertView.h */,
+				397972E61B6E1BD000608863 /* CAlertView.m */,
 				39941D031B6CC05800A2A320 /* Main.storyboard */,
 				39941D061B6CC05800A2A320 /* Images.xcassets */,
 				39941D081B6CC05800A2A320 /* LaunchScreen.xib */,
@@ -232,6 +237,7 @@
 				39941D021B6CC05800A2A320 /* ViewController.m in Sources */,
 				39941D241B6CFB4B00A2A320 /* TokenView_layer.m in Sources */,
 				39941CFF1B6CC05800A2A320 /* AppDelegate.m in Sources */,
+				397972E71B6E1BD000608863 /* CAlertView.m in Sources */,
 				39941D211B6CD1B300A2A320 /* CircleView_layer.m in Sources */,
 				39941CFC1B6CC05800A2A320 /* main.m in Sources */,
 			);
@@ -428,6 +434,7 @@
 				39941D1B1B6CC05800A2A320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39941D1C1B6CC05800A2A320 /* Build configuration list for PBXNativeTarget "CountDownTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				39941D1E1B6CC05800A2A320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
